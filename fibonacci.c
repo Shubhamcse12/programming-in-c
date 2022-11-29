@@ -1,14 +1,20 @@
-#include<stdio.h>
-int main(){
-    int i=0,f=0,n;
-    printf("enter the value of n");
-    scanf("%d",&n);
+#include <stdio.h>
+int main()
+{
+    int n, f1 = 0, f2 = 1, f3 = 1, f4;
+    printf("enter the value of n =");
+    scanf("%d", &n);
+    printf("%d,", f1);
+    printf("%d,", f2);
+    printf("%d,", f3);
     do
     {
-        f=f+i;
-        i++;
-    } while (n>i);
-    printf("%d",f);
+        f4 = f2 + f3;
+        printf("%d,", f4);
+        f2 = f3;
+        f3 = f4;
+
+    } while (f4 < n);
+
     return 0;
-    
 }
