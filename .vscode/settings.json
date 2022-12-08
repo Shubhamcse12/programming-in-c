@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "CI.C": "cpp"
+        "CI.C": "cpp",
+        "stdio.h": "c"
     }
 }
