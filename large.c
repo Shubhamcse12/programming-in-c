@@ -10,13 +10,24 @@ int main()
     scanf("%d", &c);
     if (a > b)
     {
-        printf("%d is biggest", a);
+        if (a > c)
+        {
+            printf("a= %d is greatest one", a);
+        }
+        else
+        {
+            printf("c= %d is greatest one", c);
+        }
     }
     else if (b > c)
     {
-        printf("%d is biggest", b);
+        printf("b= %d is greatest one", b);
     }
+
     else
-        printf("%d is biggest", c);
+    {
+        printf("c %d is greatest one", c);
+    }
+
     return 0;
 }
