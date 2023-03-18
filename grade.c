@@ -31,6 +31,11 @@ int main()
         {
             printf("you have got C Grade.\n VERY LOW MARKS");
         }
+        else if (marks>=35)
+        {
+            printf("you are pass\n");
+        }
+        
     }
 
     else

@@ -3,12 +3,12 @@ int sfact();
 
 int main()
 {
-    printf("n=");
     printf("sum of n factorial is %d\n", sfact());
 }
 int sfact()
 {
     int n, s = 0, f;
+    printf("n=");
     scanf("%d", &n);
     for (int x = n; x >= 1; x--)
     {

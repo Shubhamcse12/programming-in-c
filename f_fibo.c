@@ -1,9 +1,7 @@
 #include<stdio.h>
 void fibo(int n){
-    int a=0,b=1,c;
-    printf("%d,",a);
-    printf("%d,",b);
-    for (int i =3; i <= n; i++)
+    int a=-1,b=1,c;
+    for (int i =1; i <= n; i++)
     {
         c=a+b;
         printf("%d,",c);

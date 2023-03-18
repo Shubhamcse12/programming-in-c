@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    long  i = 1, n, factorial = 1;
+    int  i = 1, n, factorial = 1;
     printf("enter the value of n =");
     scanf("%ld", &n);
     do

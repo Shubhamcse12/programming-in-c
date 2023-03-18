@@ -1,3 +1,4 @@
+// IN THIS FIBONACCI SERIES ONE MORE TERM WILL BE PRINTED BECAUSE OF DO-EHILE LOOP
 #include <stdio.h>
 int main()
 {
@@ -13,7 +14,6 @@ int main()
         printf("%d,", f4);
         f2 = f3;
         f3 = f4;
-
     } while (f4 < n);
 
     return 0;
